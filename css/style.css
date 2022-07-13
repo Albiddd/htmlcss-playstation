@@ -51,3 +51,26 @@ img{
     font-size: 29px;
     color: #787878;
 }
+.ps5_active{
+    border-bottom: 3px solid #0070D1;
+}
+.card_opacity{
+    opacity: 0.5;
+}
+
+.it_takes_two{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.new_release{
+    background-color: #1F1F1F;
+}
+
+.new_release_subtitle{
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 20px 0;
+}
