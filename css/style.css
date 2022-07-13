@@ -7,3 +7,16 @@
 .sony_logo{
     width: 80px;
 }
+
+#hero{
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 300px;
+}
+.card_hero_img{
+    width: 250px;
+}
+.bg_orange{
+    background-color: #CD3D0F;
+}
