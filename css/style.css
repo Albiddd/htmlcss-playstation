@@ -110,3 +110,8 @@ header{
 .ps_now{
     background-color: #161C3B;
 }
+
+.row_wrapper{
+    max-width: 900px;
+    margin: 0 auto;
+}
