@@ -12,11 +12,10 @@
     <script src="https://kit.fontawesome.com/bd0b4efb07.js" crossorigin="anonymous"></script>
   <body>
     <header>
-        <div >
             <div class="top_header text-end bg-black p-2">
                 <img class="sony_logo" src="./img/sony_logo.svg" alt="">
             </div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-white">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <img src="./img/play_logo.svg" alt="">
@@ -84,7 +83,6 @@
                     </div>
               </div>    
             </nav>
-        </div>
     </header> 
 
     <main>
@@ -142,13 +140,13 @@
         </div>
 
     <!-- Playstation 5 section -->
-        <section class="ps5 p-4">
-            <div class="ps5_title text-center">
+        <section class="ps5 p-5">
+            <div class="section_title text-center">
                 <h6 class="m-0">PLAY HAS NO LIMITS</h6>
                 <h2 class="mb-4">Ecco la PlayStation 5</h2>
                 <p>Tuffati in nuove possibilità di gioco completamente inaspettate</p>
             </div>
-            <div class="row align-items-center">
+            <div class="row row-cols-1 row-col-md-2 row-cols-lg-2 align-items-center justify-content-center">
                 <div class="col">
                     <div class="ps5_card card border-0">
                         <div class="card-body">
@@ -346,7 +344,7 @@
     <!-- Playstation 4 section -->
         <section class="Ps4">
             <div class="container-fluid p-5">
-                <div class="ps4_title text-center">
+                <div class="section_title text-center">
                     <h2 class="mb-4">Esplora PlayStation&reg; 4</h2>
                     <p>Giochi incredibili e intrattenimento senza fine.<br>
                         Non c'è mai stato un momento mogliore per giocare sulla tua ps4.
@@ -411,11 +409,54 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col d-none d-md-block">
                         <img class="d-block" src="./img/ps-plus-april-monthly-games-featured-image-block.png" alt="">
                     </div>
                 </div>
+            </div>
+        </section>
 
+        <section class="sales">
+           <div class="container-fluid p-5">
+                <div class="section_title text-center">
+                    <h2 class="mb-4">Nuovi sconti sul Playstation Store</h2>
+                    <p>Sconti pazzeschi, collezionioni curate e saldi stagionali su PS5, PS4 e PS VR, tutti in un posto.</p>
+                </div>
+            
+                <div class="row row-cols-1 row-cols-lg-3">
+                    <div class="col">
+                        <img src="./img/playstation-store-games-under-20-spotlight.jpg" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./img/playstation-store-golden-week-sale-spotlight.jpg" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./img/playstation-store-free-to-play-spotlight.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="ps_now">
+            <div class="container-fluid px-5">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="ps_now_card card border-0 bg-transparent">
+                            <div class="ps_plus_logo py-4">
+                                <img src="./img/ps-now-logo-two-column.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text text-white">Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per PS4, PS3 e PS2 su PS4 o PC Windows, con nuovi titoli aggiunti ogni mese.</p>
+                                <button class="btn bg-white my-3 rounded-pill " type="submit">
+                                    <a class="text-black text-decoration-none" href="#">Esplora Playstatio Now</a> 
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-none d-md-block">
+                        <img class="d-block" src="./img/ps-now-april-featured-image-block.png" alt="">
+                    </div>
+                </div>
             </div>
         </section>
     </main>

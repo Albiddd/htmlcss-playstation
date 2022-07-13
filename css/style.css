@@ -20,6 +20,28 @@ img{
 .btn_blue{
     background-color: #0070D1;
 }
+
+.section_title h2{
+    font-size: 46px;
+}
+.section_title p{
+    font-size: 22px;
+    font-weight: 500;
+    color: #787878;
+    padding-bottom: 1rem;
+}
+.section_title h6{
+    color: #0070D1;
+}
+
+header{
+    display: contents;
+}
+#nav{
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+}
 #hero{
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
@@ -34,17 +56,6 @@ img{
     padding: 3px;
 }
 
-.ps5_title h6{
-    color: #0070D1;
-}
-.ps5_title h2{
-    font-size: 48px;
-}
-.ps5_title p{
-    font-size: 24px;
-    font-weight: 500;
-    color: #787878;
-}
 .ps5_card h4{
     font-size: 48px;
 }
@@ -77,15 +88,6 @@ img{
     padding: 20px 0;
 }
 
-.ps4_title h2{
-    font-size: 48px;
-}
-.ps4_title p{
-    font-size: 24px;
-    font-weight: 500;
-    color: #787878;
-    padding-bottom: 1rem;
-}
 .ps4_p{
     font-size: 20px !important;
     font-weight: 500;
@@ -103,4 +105,8 @@ img{
 .blue_link{
     color: #0070D1;
     font-weight: 500;
+}
+
+.ps_now{
+    background-color: #161C3B;
 }
