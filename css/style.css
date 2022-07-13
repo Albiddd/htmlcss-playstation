@@ -1,13 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
+img{
+    max-width: 100%;
+}
 .sony_logo{
     width: 80px;
 }
 
+.btn_orange{
+    background-color: #CD3D0F;
+}
+.btn_blue{
+    background-color: #0070D1;
+}
 #hero{
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
@@ -17,6 +29,25 @@
 .card_hero_img{
     width: 250px;
 }
-.bg_orange{
-    background-color: #CD3D0F;
+.img_carousel .active{
+    border: 2px solid #0070D1;
+    padding: 3px;
+}
+
+.ps5_title h6{
+    color: #0070D1;
+}
+.ps5_title h2{
+    font-size: 62px;
+}
+.ps5_title p{
+    font-size: 32px;
+    color: #787878;
+}
+.ps5_card h4{
+    font-size: 62px;
+}
+.ps5_card p{
+    font-size: 29px;
+    color: #787878;
 }
