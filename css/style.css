@@ -13,7 +13,6 @@ img{
 .sony_logo{
     width: 80px;
 }
-
 .btn_orange{
     background-color: #CD3D0F;
 }
@@ -21,6 +20,7 @@ img{
     background-color: #0070D1;
 }
 
+/* SECTION FONTS GENERAL */
 .section_title h2{
     font-size: 46px;
 }
@@ -34,6 +34,7 @@ img{
     color: #0070D1;
 }
 
+/* NAVBAR */
 header{
     display: contents;
 }
@@ -42,6 +43,17 @@ header{
     top: 0px;
     z-index: 999;
 }
+.dropdown-toggle::after{
+    border: none;
+    content: '\f107';
+    vertical-align: middle;
+    font: var(--fa-font-solid);
+}
+.dropdown-toggle.show::after{
+    content: '\f106';
+}
+
+/* HERO */
 #hero{
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
@@ -56,6 +68,7 @@ header{
     padding: 3px;
 }
 
+/* PS5 */
 .ps5_card h4{
     font-size: 48px;
 }
@@ -70,29 +83,41 @@ header{
 .card_opacity{
     opacity: 0.5;
 }
+.card_opacity:hover{
+    opacity: 1;
+}
 
+/* It Takes Two */
 .it_takes_two{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-position: center;
 }
 
+/* New Release */
 .new_release{
     background-color: #1F1F1F;
 }
-
 .new_release_subtitle{
     display: block;
     font-size: 24px;
     font-weight: 500;
     padding: 20px 0;
 }
+#new_release_card:hover #new_release_img{
+    transform: scale(1.05);
+    transition: 400ms ease-in-out;
+    cursor: pointer;
+}
 
+/* PS4 */
 .ps4_p{
     font-size: 20px !important;
     font-weight: 500;
     color: #787878;
 }
+
+/* PS PLUS */
 .ps_plus{
     background-color: #BEBCBB;
 }
@@ -107,11 +132,30 @@ header{
     font-weight: 500;
 }
 
+/* PS NOW */
 .ps_now{
     background-color: #161C3B;
 }
 
+/* SOCIAL */
 .row_wrapper{
     max-width: 900px;
     margin: 0 auto;
+}
+
+/* footer */
+.ps_footer{
+    background-color: #00439C;
+}
+
+.ps_footer_logo{
+    color: white;
+    width: 100px;
+}
+.language_img{
+    width: 20px;
+}
+
+.sie_logo{
+    width: 130px;
 }
